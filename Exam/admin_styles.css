@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #F5E6CA;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #F5E6CA;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+label, input {
+    display: block;
+    margin: 10px auto;
+}

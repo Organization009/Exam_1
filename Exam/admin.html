@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="admin_styles.css">
+</head>
+<body>
+    
+<body style="background-color: rgb(2, 117, 155); font-weight: bold;">
+    <header>
+        <h1>Admin Page</h1>
+    </header>
+    <section id="manageMenu">
+        <h2>Manage Menu</h2>
+        <form>
+            <label for="menuItem">Menu Item:</label>
+            <input type="text" id="menuItem" name="menuItem"><br><br>
+            <input type="submit" value="Add Item">
+        </form>
+    </section>
+    <section id="manageSpecials">
+        <h2>Manage Specials</h2>
+        <form>
+            <label for="specialItem">Special Item:</label>
+            <input type="text" id="specialItem" name="specialItem"><br><br>
+            <input type="submit" value="Add Special">
+        </form>
+    </section>
+    <section id="managePricing">
+        <h2>Manage Pricing</h2>
+        <form>
+            <label for="menuPrice">Menu Item Price:</label>
+            <input type="text" id="menuPrice" name="menuPrice"><br><br>
+            <input type="submit" value="Update Price">
+        </form>
+    </section>
+    <script src="admin_script.js"></script>
+</body>
+</html>
